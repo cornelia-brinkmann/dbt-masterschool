@@ -1,1 +1,0 @@
-SELECT * FROM tasty_bytes_sample_data.raw_pos.menu
