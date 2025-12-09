@@ -1,1 +1,1 @@
-SELECT * FROM tasty_bytes_sample_data.raw_pos.menu
+SELECT * FROM {{ source ('tasty_bytes', 'menu')}}

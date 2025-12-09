@@ -1,0 +1,16 @@
+sources:
+  - name: tasty_bytes
+    database: tasty_bytes_sample_data
+    schema: raw_pos
+    tables:
+      - name: menu
+
+
+  - name: snowflake_sample_data
+    database: snowflake_sample_data
+    schema: tpch_sf100
+    tables: 
+
+      - name: orders
+      - name: customer
+      - name: lineitem
